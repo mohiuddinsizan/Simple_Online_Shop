@@ -25,7 +25,7 @@ const Navbar = () => {
                     <PlusSquareIcon />
                 </Button>
             </Link>
-            <Link to={"/create"}>
+            <Link to={"/"}>
                 <Button onClick={toggleColorMode}>
                     {
                         colorMode ==="light" ? <IoMoon /> : <LuSun size="20" />
